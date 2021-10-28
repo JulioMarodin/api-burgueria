@@ -15,10 +15,25 @@ POST /users
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
-
 ### Login
 
 POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Product/ProductsList
+
+POST /products<br/>
+GET /products<br/>
+
+A primeira serve para cadastrar produtos, para cadastrar, no corpo da requisição é necessário o id do produto, a category, o name, o price, a img e o userId. Necessário também o token de login no bearer.
+O Get serve para receber a array de produtos disponíveis. Não necessita de bearer token.
+
+### Cart/CartList
+
+POST /cart<br/>
+GET /cart
+
+O primeiro serve para adicionar um ítem ao carrinho, utiliza o mesmo corpo do POST/products, também com o bearer token.
+O Get serve para receber a array de produtos no carrinho. Necessita apenas do token de login.
