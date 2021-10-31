@@ -12,65 +12,81 @@
       "id": 1,
       "category": "sanduiche",
       "name": "Big Kenzie",
-      "price": 18,
+      "price": 18.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kfXxD5Xb/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 18.0
     },
     {
       "id": 2,
       "category": "sanduiche",
       "name": "Cheeseburger",
-      "price": 12,
+      "price": 12.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXJhh6f/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 12.0
     },
     {
       "id": 3,
       "category": "sanduiche",
       "name": "Hamburger",
-      "price": 10,
+      "price": 10.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kfXryEgJ/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 10.0
     },
     {
       "id": 4,
       "category": "sanduiche",
       "name": "Double Cheeseburger",
-      "price": 16,
+      "price": 16.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kfXDlz7u/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 16.0
     },
     {
       "id": 5,
       "category": "bebida",
       "name": "Coca Cola",
-      "price": 7,
+      "price": 7.0,
       "img": "https://w7.pngwing.com/pngs/522/614/png-transparent-hamburger-coca-cola-kebab-chicken-coca-cola-hamburger-coca-cola-kebab.png",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 7.0
     },
     {
       "id": 6,
       "category": "bebida",
       "name": "Fanta Laranja",
-      "price": 5,
+      "price": 5.0,
       "img": "https://img2.gratispng.com/20180421/voq/kisspng-orange-soft-drink-fanta-fizzy-drinks-orange-juice-juice-cup-5adbde6cdfb173.5397134215243587649163.jpg",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 5.0
     },
     {
       "id": 7,
       "category": "sobremesa",
       "name": "Kenzie Shake Kopenhagen",
-      "price": 10,
+      "price": 10.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXhmkwl/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 10.0
     },
     {
       "id": 8,
       "category": "sobremesa",
       "name": "Kenzie Shake Ovomaltine",
-      "price": 10,
+      "price": 10.0,
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXA6qBU/200/200/original?country=br",
-      "userId": 1
+      "userId": 1,
+      "quantity": 1,
+      "total": 10.0
     }
   ],
   "cart": []
